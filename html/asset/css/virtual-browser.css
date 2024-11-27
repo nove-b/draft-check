@@ -1,0 +1,177 @@
+@charset "UTF-8";
+/*----------------------
+リセット
+----------------------*/
+/*html5doctor.comResetStylesheetv1.6.1LastUpdated:2010-09-17Author:RichardClark-http://richclarkdesign.comTwitter:@rich_clark*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  word-break: break-all; }
+
+html {
+  font-size: 62.5%;
+  line-height: 1.7;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+  font-weight: 500;
+  overflow-x: hidden; }
+
+body {
+  font-size: 1.6rem;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.87); }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+navul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none; }
+
+a {
+  display: block;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+/*changecolourstosuityourneeds*/
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none; }
+
+/*changecolourstosuityourneeds*/
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold; }
+
+del {
+  text-decoration: line-through; }
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0; }
+
+input, select {
+  vertical-align: middle; }
+
+*, *::before, *::after {
+  box-sizing: border-box; }
+
+img {
+  width: 100%;
+  vertical-align: bottom; }
+
+ul {
+  display: block; }
+
+li {
+  display: block; }
+
+a {
+  color: rgba(0, 0, 0, 0.87);
+  text-decoration: none; }
+
+/*----------------------
+☆☆ DUMMY
+☆☆ DUMMY
+☆☆ DUMMY
+☆☆ DUMMY
+☆☆ DUMMY
+☆☆ DUMMY
+----------------------*/
+/*----------------------
+DUMMY
+----------------------*/
+.desc_area {
+  position: fixed;
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  background-color: aquamarine;
+  transition-duration: 1s;
+  transform: translate(0px, 0px);
+  z-index: 1; }
+  .desc_area .switcher {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em; }
+  .desc_area .slideBtn {
+    position: absolute;
+    bottom: -60px;
+    right: 0;
+    display: inline-block;
+    padding: 10px 20px;
+    border-bottom-left-radius: 20px;
+    background-color: aquamarine;
+    font-size: 24px;
+    color: #000000;
+    cursor: pointer; }
+  .desc_area.is-active {
+    transition-duration: 1s;
+    transform: translate(0px, -174px); }
+  .desc_area .relode {
+    display: inline-block;
+    margin-top: 1em;
+    padding: 8px 20px;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    background-color: #ffffff;
+    color: #000000;
+    cursor: pointer;
+    cursor: pointer;
+    transition-duration: .5s; }
+    .desc_area .relode:hover {
+      background-color: aquamarine;
+      border: 2px solid #ffffff;
+      transition-duration: .5s; }
+
+.virtual_browser.is-active {
+  width: 375px;
+  height: 817px;
+  margin: 0 auto;
+  overflow-x: auto; }
+
+.desc_text {
+  position: absolute;
+  top: 240px;
+  right: 0;
+  padding: 20px;
+  border: 10px solid aquamarine;
+  background-color: #ffffff; }
+  .desc_text a {
+    display: inline-block;
+    color: #1A0DAB; }
+  .desc_text.is-active {
+    display: none; }

@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ja">
+<head prefix="og: http://ogp.me/ns#">
+<meta charset="utf-8">
+<title>スマホで画像検索するサイト</title>
+<meta name="robots" content="noindex"/>
+<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.0.10/font-awesome-animation.css" type="text/css" media="all" />
+<link rel="stylesheet" href="asset/css/library/solarized-dark.css">
+<link href="https://fonts.googleapis.com/css?family=Kosugi+Maru&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="asset/css/init.css">
+<link rel="stylesheet" href="asset/css/virtual-browser.css">
+
+<script src="asset/javascript/init.js"></script> 
+</head>
+<body>
+<div class="desc_area">
+  <form>
+    <input id="input" type="file">
+    <p id="switcher" class="switcher">
+      <label>
+        <input type="radio" name="switcher_radio" value="pc" id="pc" checked>
+        パソコン</label>
+      <br>
+      <label>
+        <input type="radio" name="switcher_radio" value="sp" id="sp">
+        スマホ</label>
+    </p>
+    <div id="relode" class="relode">リロード</div>
+  </form>
+  <p id="slideBtn" class="slideBtn"><i class="fas fa-arrow-alt-circle-up"></i></p>
+</div>
+<div class="virtual_browser"> </div>
+<div class="desc_text">
+  <p>このページは画像化されたwebデザインを仮想ブラウザで確認するために作成しました。</p>
+  <p>もらったwebデザインを紙に印刷してみたがいまいち実感がわかない。<br>そんな時、このツールを活用してください。</p>
+  <p>パソコン、スマートフォンそれぞれのデザインが確認できるようになっていますので、「・パソコン」「・スマートフォン」見たいほうをチェックし使用してください。</p>
+  <p>※ 画像はあくまでも一時的な表示となりますので、サーバーに送られるなどといった心配はございません。</p>
+</div>
+<script src="asset/javascript/virtual-browser.js"></script>
+</body>
+</html>
